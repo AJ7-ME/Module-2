@@ -1,12 +1,12 @@
-while True:
-    str = input("Enter a string: ")
-    srt2 = ""
-    for i in str:
-        srt2 = i + srt2
-    str = str.lower()
-    srt2 = srt2.lower()
-    print("\nOriginal string is", str)
-    print("Reversed string is", srt2)
+a = int(input("Enter a whole number: "))
+b = int(input("Enter your second whole number: "))
+print("numbers from {0} to {1} in reverse order are:".format(a, b))
+for i in range(a, b, -1):
+    print(i)
+
+
+
+
 
 
 

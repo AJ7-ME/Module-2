@@ -1,12 +1,17 @@
 while True:
-    str = input("Enter a string: ")
-    srt2 = ""
-    for i in str:
-        srt2 = i + srt2
-    str = str.lower()
-    srt2 = srt2.lower()
-    print("\nOriginal string is", str)
-    print("Reversed string is", srt2)
+    n =int(input("Enter the number up to which you want the sum of whole numbers: "))
+    sum = 0
+    for i in range(n+1):
+        sum = sum + i
+        print("\nSum of", n, "is:", sum)
+
+
+
+
+
+
+
+
 
 
 
