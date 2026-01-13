@@ -1,8 +1,10 @@
-while True:
+repeat = int(input("How many times do you want to use the calculator without needing to run this program again?\n"))
+for i in range(repeat):
     x = float(input("Enter the base number: "))
     y = float(input("Enter the exponent: "))
     z = x ** y
     print("The result of", x, "raised to the power of", y, "is:", z)
+
 
 
 
